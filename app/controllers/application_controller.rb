@@ -7,5 +7,10 @@ class App < Sinatra::Base
   get '/' do 
     
   end
+  
+  
+  post '/teams' do
+    erb :teams
+  end
 
 end
