@@ -1,52 +1,9 @@
 <form action="/teams" method="POST">
-  <
-</form>
+  <label for="team_name">Team Name:</label>
+  <input type="text" id="team_name" name="name"></input><br>
+  
+  <label for="team_motto">Team Motto:</label>
+  <input type="text" id="team_motto" name="motto"></input><br>
 
-
-
-
-
-<form method="POST" action="/newteam">
-      Team Name: <input type="text" name="name"><br>
-      Coach: <input type="text" name="coach"><br>
-      Point Guard: <input type="text" name="pg"><br>
-      Shooting Guard: <input type="text" name="sg"><br>
-      Small Forward: <input type="text" name="sf"><br>
-      Power Forward: <input type="text" name="pf"><br>
-      Center: <input type="text" name="c"><br>
-      <input type="submit">
-    </form>
-
-
-
-
-<form action="/pirates" method="POST">
-	<label for="pirate_name">Pirate Name:</label>
-	<input type="text" id="pirate_name" name="pirate[name]"></input>
-	
-	<label for="pirate_weight">Pirate Weight:</label>
-	<input type="text" id="pirate_weight" name="pirate[weight]"></input>
-	
-	<label for="pirate_height">Pirate Height:</label>
-	<input type="text" id="pirate_height" name="pirate[height]"></input>
-	
-	<label for="ship_name">Ship 1 Name:</label>
-	<input type="text" id="ship_name_1" name="pirate[ships][][name]"></input>
-	
-	<label for="ship_type">Ship 1 Type:</label>
-	<input type="text" id="ship_type_1" name="pirate[ships][][type]"></input>
-	
-	<label for="ship_booty">Ship 1 Booty:</label>
-	<input type="text" id="ship_booty_1" name="pirate[ships][][booty]"></input>
-		
-	<label for="ship_name">Ship 2 Name:</label>
-	<input type="text" id="ship_name_2" name="pirate[ships][][name]"></input>
-	
-	<label for="ship_type">Ship 2 Type:</label>
-	<input type="text" id="ship_type_2" name="pirate[ships][][type]"></input>
-	
-	<label for="ship_booty">Ship 2 Booty:</label>
-	<input type="text" id="ship_booty_2" name="pirate[ships][][booty]"></input>
-	
-	<input type="submit">Submit</input>
+  <input type="submit" id="Submit">
 </form>
